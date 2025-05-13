@@ -1,0 +1,31 @@
+{
+  "name": "@ashkiani/aws-ses-mailer",
+  "version": "1.0.0",
+  "description": "Lightweight AWS SES email sender for Node.js — simple utility to send HTML/text emails with optional reply-to, built on AWS SDK v3.",
+  "main": "index.js",
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.808.0",
+    "bowser": "^2.11.0",
+    "dotenv": "^16.5.0",
+    "fast-xml-parser": "^4.4.1",
+    "strnum": "^1.1.2",
+    "tslib": "^2.8.1",
+    "uuid": "^9.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashkiani/aws-ses-mailer.git"
+  },
+  "keywords": [
+    "aws-ses"
+  ],
+  "author": "Siavash Ashkiani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashkiani/aws-ses-mailer/issues"
+  },
+  "homepage": "https://github.com/ashkiani/aws-ses-mailer#readme"
+}
